@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    min-height: 100vh;
+    font-family: 'Josefin Sans', sans-serif;
+    /* background: linear-gradient(#e66465, #9198e5); */
+    /* background-image: url("https://images.unsplash.com/photo-1597747729747-0828f54b0b79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHJhaW5ib3d8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"); */
+    background: rgba(0, 0, 0, 0.7) url('https://images.unsplash.com/photo-1597747729747-0828f54b0b79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHJhaW5ib3d8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+
+div {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+button {
+    font-size: 1.9em;
+    padding: 0.3em 1em 0.2em;
+    border: solid 2px white;
+    font-family: 'Baloo 2', cursive;
+    border-radius: 0.9em;
+    background-color: white;
+    /* transition: all 0.3s ease-in-out; */
+    transition: background-color 0.1s, border 0.1s, transform 0.25s, box-shadow 0.25s ease-in-out;
+
+}
+
+button:active {
+    background-color: rgb(172, 172, 172);
+    border: solid 2px rgb(172, 172, 172);
+    cursor: pointer;
+}
+
+button:hover {
+    transform: translateY(-5px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 7px 10px;
+    cursor: pointer;
+}
+
+#title {
+    font-family: 'DM Sans', sans-serif;
+
+}
